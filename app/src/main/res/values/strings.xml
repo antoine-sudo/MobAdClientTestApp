@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MobAd-Java</string>
+    <string name="appName">MobAd-Java</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="register">register</string>
+    <string name="update">update</string>
+    <string name="You_have_successfully_registered_with_this__s">You have successfully registered with this email %1$s</string>
+    <string name="registering">Registering</string>
+    <string name="number_of_ads_per_day">Number of ads per day</string>
+    <string name="interests">Interests</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="request_an_ad">Request An Ad</string>
+    <string name="checkmark">✔</string>
+    <string name="failed_to_save_your_interests">Failed to save your interests!</string>
+    <string name="failed_to_load_your_interests">Failed to load your interests!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="something_went_wrong">Oops! Something went wrong!</string>
+    <string name="earn_extra_points">You can now earn extra loyalty points by watching ads that are customized to your tastes and preferences.</string>
+    <string name="earn_loyalty_points">EARN LOYALTY POINTS</string>
+    <string name="trends_and_discounts">They are set to inform you about the latest shopping trends and discounts!</string>
+    <string name="select_all">Select all</string>
+    <string name="unselect_all">Unselect all</string>
+    <string name="please_select_at_least_one_interest">Please select at least 1 interest!</string>
+    <string name="trigger_get_ad">Trigger get ad</string>
+    <string name="show_ads">Show Ads</string>
+    <string name="ad_languages">Ad languages</string>
+    <string name="failed_to_load_your_languages">Failed to load your ad languages!</string>
+    <string name="failed_to_save_your_languages">Failed to save your ad languages!</string>
+    <string name="please_select_at_least_one_language">Please select at least 1 language!</string>
+</resources>

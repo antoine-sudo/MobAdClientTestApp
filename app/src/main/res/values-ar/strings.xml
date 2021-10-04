@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">موباد</string>
+    <string name="appName">موباد</string>
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="register">تسجيل الدخول</string>
+    <string name="update">تحديث</string>
+    <string name="You_have_successfully_registered_with_this__s">لقد تم سجيل الدخول بنجاح باستخدام البريد الإلكتروني %s</string>
+    <string name="registering">جاري تسجيل الدخول</string>
+    <string name="number_of_ads_per_day">عدد الإعلانات في النهار الواحد</string>
+    <string name="interests">إهتمامات</string>
+    <string name="settings">إعدادات</string>
+    <string name="save">حفظ</string>
+    <string name="checkmark">✔</string>
+    <string name="failed_to_save_your_interests">حدث خطأ خلال حفظ اهتماماتك!</string>
+    <string name="failed_to_load_your_interests">حدث خطأ خلال تحميل اهتماماتك!</string>
+    <string name="dismiss">صرف</string>
+    <string name="something_went_wrong">حدث خطأ ماّ!</string>
+    <string name="earn_extra_points">بإمكانك الآن الحصول على نقاط إضافية عبر مشاهدة إعلانات تناسب ذوقك وتفضيلاتك.</string>
+    <string name="earn_loyalty_points">إحصل على نقاط</string>
+    <string name="trends_and_discounts">تم وضعهم لإعلانك عن آخر عروضات واتجاهات التسوق!</string>
+    <string name="select_all">إختيار الكل</string>
+    <string name="unselect_all">الغاء جميع الخيارات</string>
+    <string name="please_select_at_least_one_interest">الرجاء اختيار اهتمام واحد على الأقل!</string>
+    <string name="trigger_get_ad">إظهار إعلان</string>
+    <string name="show_ads">إظهار الإعلانات</string>
+    <string name="ad_languages">لغات الإعلانات</string>
+    <string name="failed_to_load_your_languages">حدث خطأ خلال تحميل لغات اعلاناتك!</string>
+    <string name="failed_to_save_your_languages">حدث خطأ خلال حفظ لغات اعلاناتك!</string>
+    <string name="please_select_at_least_one_language">الرجاء اختيار لغة واحدة على الأقل!</string>
+    <string name="request_an_ad">طلب اعلان</string>
+</resources>

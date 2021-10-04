@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categorySection"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@color/section"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/categorySectionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:textColor="@color/darkText"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Section"
+        app:drawableEndCompat="@drawable/arrow_less" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subcategoriesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:clipToPadding="false"
+        />
+
+</LinearLayout>
