@@ -1,9 +1,10 @@
 plugins {
     id 'com.android.application'
 }
+apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.mobadclienttestapp_java"
@@ -40,5 +41,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //The actual MobAd SDK library
-    implementation 'com.gitlab.imw-developers:mobad-android-sdk:1b354d7372'
+    implementation 'com.gitlab.imw-developers:mobad-android-sdk:2.1.1-Testing'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+  //  mavenCentral()
 }

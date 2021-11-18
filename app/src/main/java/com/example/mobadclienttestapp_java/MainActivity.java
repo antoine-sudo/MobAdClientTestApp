@@ -2,6 +2,7 @@ package com.example.mobadclienttestapp_java;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     SwitchCompat showAddsSwitch;
     EditText numberOfAdsEditText;
+    MobAdClass mobAdEvents;
 
     MobAd mobAd;
     Boolean is_initialised=false,ads_enabled;
@@ -125,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Request button for Interstitial Ad
         request_ad.setOnClickListener(v -> {
-            mobAd.requestInterstitialAd(1000);
+            mobAd.requestInterstitialAd(0);
             Log.i("MobAd", "Interstitial Ad Requested");
         });
 
@@ -174,8 +176,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Request an Interstitial AD
-        mobAd.requestInterstitialAd(1000);
+
         callback.onCreated(true);
+
+        mobAdEvents = new MobAdClass();
+        mobAdEvents.MobAdEvents(this);
+
+
+
+
+
     }
 }
